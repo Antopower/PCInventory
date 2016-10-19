@@ -26,9 +26,9 @@ class HomeController extends Controller
     public function index()
     {
         If(Auth::Guest()) {
-            $return = view('home');
+            $return = view('guest.index');
         } else {
-            $return = view('admin.index');
+            $return = view('admin.dashboard');
         }
         return $return;
     }
