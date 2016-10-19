@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 
-    <title>Laravel</title>
+    <title>PC Inventory</title>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
@@ -18,44 +19,21 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="/plugins/plugins-styles.css">
 
-    <style>
-        body {
-            font-family: 'Lato';
-        }
-
-        .fa-btn {
-            margin-right: 6px;
-        }
-    </style>
 </head>
 <body id="app-layout">
     <div id="container" class="clearfix">
         <div id="sidebar">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">Home</a>
+                <li class="sidebar-logo">
+                    <a href="/"><img src="/images/layout/logo-wide.png" alt="Logo"></a>
                 </li>
-                <li>
-                    <a href="#">Dashboard</a>
-                </li>
-                <li>
-                    <a href="#">Shortcuts</a>
-                </li>
-                <li>
-                    <a href="#">Overview</a>
-                </li>
-                <li>
-                    <a href="#">Events</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
+                <li> <a href="#">Tableau de bord</a></li>
+                <li><a href="#">Ordinateurs</a></li>
+                <li><a href="#">Portables</a></li>
+                <li><a href="#">Écrans</a></li>
+                <li><a href="#">Cables</a></li>
+                <li><a href="#">Pièces d'ordinateurs</a></li>
+                <li><a href="#">Autres</a></li>
             </ul>
         </div>
         <div id="content">
