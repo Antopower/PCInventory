@@ -16,6 +16,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/plugins/plugins-styles.css">
 
     <style>
         body {
@@ -28,7 +29,7 @@
     </style>
 </head>
 <body id="app-layout">
-    <div id="container">
+    <div id="container" class="clearfix">
         <div id="sidebar">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
@@ -70,6 +71,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" integrity="sha384-I6F5OKECLVtK/BL+8iSLDEHowSAfUo76ZL9+kGAgTRdiByINKJaqTPH/QVNS1VDb" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="/plugins/jscrollpane/jscrollpane.min.js"></script>
+    <script src="/plugins/jscrollpane/jquery.mousewheel.js"></script>
+    <script src="/js/custom.js"></script>
 
 </body>
 </html>
